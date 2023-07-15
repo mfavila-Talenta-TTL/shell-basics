@@ -5,21 +5,23 @@
 function quit {
   exit
 }
+
 function hello {
   echo Hello!
 }
-hello
-echo foo
+# hello
+# echo foo
 
 # Funcion con parametros
 
 saludar_nombre() {
     nombre=$1
-    echo "¡Hola, $nombre!"
+    apellido=$2
+    echo "¡Hola, $nombre $apellido!"
     echo "Espero que tengas un gran día."
 }
 
-saludar_nombre "Juan"
+# saludar_nombre "Juan" "Perez"
 
 
 obtener_suma() {
