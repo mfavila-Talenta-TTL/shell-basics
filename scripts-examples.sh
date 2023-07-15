@@ -3,7 +3,7 @@
 # 1. Script para realizar una copia de seguridad de un directorio:
 
 # source_dir="$(pwd)"
-# backup_dir="/projects"
+# backup_dir=~/projects/sistemasOperativos2/shellDevelopment
 # backup_file="backup_$(date +%Y%m%d).tar.gz"
 
 # tar -czvf "$backup_dir/$backup_file" "$source_dir"
